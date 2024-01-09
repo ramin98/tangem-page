@@ -89,6 +89,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   align-self: flex-end;
+  animation: show 0.8s 1;
+}
+
+@keyframes show {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 .closeBunner {
